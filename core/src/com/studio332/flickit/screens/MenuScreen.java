@@ -19,12 +19,14 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton.TextButtonStyle;
-import com.badlogic.gdx.scenes.scene2d.utils.Align;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.Align;
 import com.studio332.flickit.FlickIt;
 import com.studio332.flickit.model.Settings;
 import com.studio332.flickit.util.Assets;
 import com.studio332.flickit.util.SoundManager;
+
+//import com.badlogic.gdx.scenes.scene2d.utils.Align;
 
 public class MenuScreen extends AbstractScreen {
    private enum ScreenType {MAIN, SETTINGS, RULES, CREDITS};

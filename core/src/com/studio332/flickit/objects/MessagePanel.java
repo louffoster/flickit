@@ -14,9 +14,11 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
-import com.badlogic.gdx.scenes.scene2d.utils.Align;
+import com.badlogic.gdx.utils.Align;
 import com.studio332.flickit.FlickIt;
 import com.studio332.flickit.util.Assets;
+
+//import com.badlogic.gdx.scenes.scene2d.utils.Align;
 
 public class MessagePanel extends Group {
    private ShapeRenderer shapeRenderer;

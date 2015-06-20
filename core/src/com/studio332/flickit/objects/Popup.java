@@ -20,8 +20,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Label.LabelStyle;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton.TextButtonStyle;
-import com.badlogic.gdx.scenes.scene2d.utils.Align;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.Align;
 import com.studio332.flickit.FlickIt;
 import com.studio332.flickit.model.Game;
 import com.studio332.flickit.model.Game.State;
@@ -102,7 +102,7 @@ public class Popup extends Group {
          addActor(t3);
       }
       
-      addControls(st, false);
+      addControls(false);
       addAction( Actions.fadeIn(FADE_TIME));
    }
    
@@ -117,7 +117,7 @@ public class Popup extends Group {
       
       showScoreboard(st,0);
       
-      addControls(st, true);
+      addControls(true);
       addAction( Actions.fadeIn(FADE_TIME));
    }
    
@@ -147,12 +147,12 @@ public class Popup extends Group {
       l2.setPosition(120, 200);
       addActor(l2);
       
-      addControls(st, true);
+      addControls(true);
       
       addAction( Actions.fadeIn(FADE_TIME));
    }
    
-   private void addControls(LabelStyle st, boolean includeResume) {
+   private void addControls( boolean includeResume) {
       TextButtonStyle tbs = new TextButtonStyle();
       tbs.font = Assets.instance().getFont();
       tbs.fontColor = new Color(1f,1f,1f, .5f);
@@ -255,7 +255,7 @@ public class Popup extends Group {
       
       showScoreboard(st,-10);
       
-      addControls(st, false);
+      addControls(false);
       addAction( Actions.fadeIn(FADE_TIME));
    }
 

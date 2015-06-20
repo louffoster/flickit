@@ -5,13 +5,11 @@
  * Created by Lou Foster
  * Copyright Studio332 2013. All rights reserved.
  */
-package com.studio332.flickit.android;
+package com.studio332.flickit;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-
-import com.studio332.flickit.PlayStoreLinker;
 
 public class PlayStoreLinkerImpl implements PlayStoreLinker {
    private Context appContext;

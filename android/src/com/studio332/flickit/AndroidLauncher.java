@@ -1,11 +1,9 @@
-package com.studio332.flickit.android;
+package com.studio332.flickit;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.studio332.flickit.FlickIt;
-import com.studio332.flickit.PlayStoreLinker;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
